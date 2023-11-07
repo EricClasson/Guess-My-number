@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+}
+
+body {
+  background-color: #fefae0;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 6;
+  margin: 3rem;
+}
+h1 {
+  margin-left: 12rem;
+  font-size: 4rem;
+}
+.game-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn-again {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  width: 8rem;
+  height: 2rem;
+  font-weight: 500;
+  font-size: larger;
+  border-radius: 0.5rem;
+  background-color: #219ebc;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.2);
+  filter: opacity(70%);
+}
+
+.box-questionmark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.questionmark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  width: 12rem;
+  height: 12rem;
+  font-size: 10rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.under-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.guess {
+  padding: 3rem;
+  width: 10rem;
+  height: 6rem;
+  font-size: 2rem;
+  background-color: transparent;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
